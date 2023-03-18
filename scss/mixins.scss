@@ -1,0 +1,11 @@
+@mixin flex($width,$margin,$paddingl,$paddingr){
+    max-width: $width;
+    margin:$margin;
+    padding-left:$paddingl;
+    padding-right:$paddingr;
+
+}
+
+.container{
+    @include flex(1300px,auto,25px,25px);
+}

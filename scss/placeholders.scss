@@ -1,0 +1,14 @@
+%section-style {
+    margin: 0 auto;
+    padding: center;
+    text-align: center;
+  }
+  
+  .video {
+    @extend %section-style;
+  }
+  
+  .categories {
+    @extend %section-style;
+  }
+  

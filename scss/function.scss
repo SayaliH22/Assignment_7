@@ -1,0 +1,8 @@
+@function linear-gradient($direction, $color1, $color2) {
+    @return linear-gradient($direction, $color1, $color2);
+  }
+  
+  .header {
+    background: linear-gradient(to right, #ff8a00, #da1b60);
+  }
+  

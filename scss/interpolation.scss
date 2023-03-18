@@ -1,0 +1,6 @@
+$property:"color";
+$color-type:red;
+
+p{
+   #{$property}: $color-type;
+}
